@@ -1,0 +1,29 @@
+#nav{
+    flex-direction: column;
+}
+#nav ul li a{
+    padding: 1rem;
+}
+#services ul{
+    flex-direction: column;
+    margin-top: 0px;
+}
+#clients{
+    overflow: hidden;
+}
+#clients img{
+    height: 110px;
+    width: 110px;
+}
+#cli-sec .item{
+    padding: 30px;
+}
+#home{
+    margin-top: 100px;
+}
+#home::before{
+    height: 800px;
+}
+#home h1{
+    text-align: center;
+}

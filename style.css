@@ -1,0 +1,193 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+#nav::before{
+    content:"";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+    top: 0;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    position: ;
+}
+#logo img{
+    height: 100px;
+    width: 100px;
+
+}
+#nav ul{
+    display: flex;
+}
+#nav ul li{
+    list-style: none;
+    font-size: 1rem;
+}
+#nav ul li a{
+    color: white;
+    display: block;
+    padding: 5px 25px;
+    text-decoration: none;
+    margin-left: 15px;
+}
+#nav ul li a:hover{
+    
+    border-radius: 90px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+#home::before{
+    content:"";
+    background: url(https://www.dellaadventure.com/images/restaurant-cafe-24-thumb2.jpg) no-repeat center center/cover;
+    background-position: auto;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+#home h1{
+    color:white;
+    background-color: rgb(32, 60, 32);
+    border-radius: 20px;
+    padding-left: 22px;
+    padding-right: 22px;
+}
+#home p{
+    text-align: center; 
+    display: flex;
+}
+#servi{
+    text-align : center;
+    font-size:3rem;
+}
+#btn{
+    font-size: large;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+#btn:hover{
+    background-color: black;
+    color: white;
+}
+#services{
+    margin-top: 380px;
+}
+#servi{
+    margin-top: 60px ;
+    margin-bottom: 30px;
+}
+#services ul{
+    display: flex;   
+}
+#services ul li{
+    border: 2px solid rgb(228, 193, 21);
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    list-style: none;
+}
+#services ul li img{
+    height: 150px;
+}
+#clients{
+    margin-top: 70px;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+}
+#clients h1{
+    text-align: center;
+}
+#clients{
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+}
+#cli_sec{
+    margin: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+#cli_sec .item{
+    padding: 54px;
+}
+
+#clients::before{
+    content: "";
+    position: absolute;
+    background: url(https://t4.ftcdn.net/jpg/02/89/11/87/360_F_289118782_t6e4hT8zLGSyNUosJgzCPMD7PwUIP469.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.2;
+   }
+#contact h1{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 3rem;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background: url(https://thumbs.dreamstime.com/z/cartoon-vegetables-icon-17881963.jpg) no-repeat center center/cover;
+    width: 100%;
+    height: 110%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+#contact-box input{
+    width: 100%;
+    border-radius:5px
+}
+#contact-box form{
+    width: 30%;
+}
+#contact-box textarea{
+    width: 100%;
+    border-radius:5px;
+}
+#sub{
+    width: 100%;
+}
+.copyright{
+    margin-top: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
